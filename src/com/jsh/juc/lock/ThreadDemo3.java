@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 线程间定制化通知
  */
 //第一步 创建资源类
-class ShareResource {
+class ShareResource { 
     //定义标志位
     private int flag = 1;//1:aa,2:bb,3:cc
     //创建lock锁
