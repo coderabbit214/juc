@@ -35,7 +35,7 @@ class Share {
 
     }
 
-    //+1的方法
+    //-1的方法
     public void dno() throws InterruptedException {
         //上锁
         lock.lock();
