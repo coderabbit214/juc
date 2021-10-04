@@ -33,6 +33,7 @@ class ShareResource {
             }
             //通知
             flag = 2;
+            //通知c2
             c2.signal();
         }finally {
             lock.unlock();
